@@ -1,4 +1,4 @@
-Excuslive Sticker Designs created for SiahVille Studio by SiahVille!
+Exclusive Sticker Designs created for SiahVille Studio by SiahVille!
 Upgrade your collection with our latest Siahville Sticker Drop! This
 fresh batch features bold, eye-catching designs that bring personality,
 hustle, and mystic energy to your everyday items. Whether you’re about
