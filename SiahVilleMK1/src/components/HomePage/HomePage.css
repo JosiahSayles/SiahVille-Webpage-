@@ -1,3 +1,8 @@
 .home-page {
   margin-top: 150px;
 }
+
+.HP-imgs {
+  display: flex;
+  flex-wrap: wrap;
+}

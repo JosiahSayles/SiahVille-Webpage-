@@ -3,17 +3,42 @@ import { Link, NavLink } from "react-router";
 
 export default function NavBar() {
   return (
-    <header className="fixed top-0 left-0 w-full  shadow-md z-50 flex justify-center items-center  shadow-md px-6 py-3">
-      <Link to="/" className="flex items-center space-x-2">
+    <header className="fixed top-0 left-0 w-full  shadow-md z-50 flex justify-evenly  items-baseline bg-black shadow-md px-6 py-3">
+      <div className="flex ">
+        <NavLink className="flex-col items text-white pr-5">
+          <img src="/Icons/home.png" alt="Home Icon" />
+          Home
+        </NavLink>
+        <NavLink className="flex-col items text-white pr-5">
+          <img src="/Icons/shoppingbag.png" alt="Shopping bag Icon" />
+          Shopping Bag
+        </NavLink>
+        <NavLink className="flex-col items text-white pr-5">
+          <img src="/Icons/login.png" alt="Login Icon" />
+          Login
+        </NavLink>
+      </div>
+      <Link to="/" className="flex items-center justify-center">
         <img
           src="/img/SiahVilleLogo.png"
           alt="SiahVilleLogo"
           className="w-40 h-40 object contain"
         />
       </Link>
-      <nav></nav>
-
-      <div></div>
+      <div className="flex ">
+        <NavLink className="flex-col items text-white pr-5">
+          <img src="/Icons/search.png" alt="Search Icon" />
+          Search
+        </NavLink>
+        <NavLink className="flex-col items text-white pr-5">
+          <img src="/Icons/collections.png" alt="Shopping bag Icon" />
+          Collections
+        </NavLink>
+        <NavLink className="flex-col items text-white pr">
+          <img src="/Icons/catalog.png" alt="Login Icon" />
+          Catalog
+        </NavLink>
+      </div>
     </header>
   );
 }
