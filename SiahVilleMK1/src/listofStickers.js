@@ -1,4 +1,4 @@
-export const stickers = [
+export const listOfStickers = [
   {
     id: 1,
     title: "B_MOB HEAD",

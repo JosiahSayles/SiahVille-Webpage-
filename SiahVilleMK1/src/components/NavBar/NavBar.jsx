@@ -3,7 +3,7 @@ import { Link, NavLink } from "react-router";
 
 export default function NavBar() {
   return (
-    <header className="fixed top-0 left-0 w-full  shadow-xl z-50 flex justify-evenly  items-baseline bg-slate-500 shadow-md px-6 py-3">
+    <header className="font fixed top-0 left-0 w-full  shadow-xl z-50 flex justify-evenly  items-baseline bg-slate-500 shadow-md px-6 py-3">
       <div className="flex ">
         <NavLink className="flex-col items text-white pr-5 hover:text-red-400">
           <img className="pl-2 " src="/Icons/home.png" alt="Home Icon" />
