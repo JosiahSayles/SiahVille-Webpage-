@@ -99,7 +99,7 @@ export default function HomePage() {
           </section>
 
           <section className=" flex justify-center font-bold text-3xl mb-20 mt-10 ">
-            <button className="border-3 text-white rounded-xl p-3  hover:text-pink-500 shadow-lg hover:animate-bounce">
+            <button className="border-3 text-white rounded-xl p-3  hover:text-black shadow-xl hover:animate-bounce">
               Shop all
             </button>
           </section>

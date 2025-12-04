@@ -1,7 +1,7 @@
 export default function Stickers({ sticker }) {
   return (
     <div className="flex-col justify-items-center">
-      <li className=" group flex-col border bg-slate-400 rounded-xl shadow-2xl  p-1 ml-8 mr-8  mt-10 max w-100 h-150 hover: transition-transform duration-300">
+      <li className=" group flex-col border-2 bg-slate-400 rounded-xl shadow-2xl  p-1 ml-8 mr-8  mt-10 max w-100 h-150 hover: transition-transform duration-300">
         <div className="relative w-full h-100 rounded-lg overflow-hidden">
           {/* Default image */}
           <img
