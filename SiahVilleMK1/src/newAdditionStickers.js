@@ -34,4 +34,16 @@ export const newAdditionStickers = [
     cover: "/marketing/CBC1.jpg",
     hoverImage: "/marketing/CBCMk1.jpeg",
   },
+
+  {
+    id: 4,
+    title: "TruckedUp!",
+    description:
+      "This unique design features a hooded figure chilling atop a massive skateboard wheel, giving off raw street energy with a hint of mystery. With grunge-inspired textures, bold details, and a sick color palette, this sticker is perfect for skaters, artists, & rebels alike.",
+    cost: "3.00",
+    collection: "New Additions",
+    size: "3.8 x 2.45 in",
+    cover: "/marketing/TruckedUp1.jpeg",
+    hoverImage: "/marketing/TruckedUp2.jpeg",
+  },
 ];

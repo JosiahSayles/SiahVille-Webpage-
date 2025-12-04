@@ -11,7 +11,7 @@ export default function HomePage() {
             Welcome to SiahVille Studios
           </h1>
           <section className=" rounded-2xl border-stone-300 shadow-2xl p-6 mb-2 max-w-8xl mx-auto px-10 w-full mt-2">
-            <ul className="flex flex items-center h-140 rounded-2x justify-center items-center">
+            <ul className="flex flex items-center h-120 rounded-2x justify-center items-center">
               <img
                 className="h-full rounded-md shadow-2xl"
                 src="/marketing/TruckedUp1.jpeg"
@@ -34,11 +34,11 @@ export default function HomePage() {
               />
             </ul>
           </section>
-          <section>
+          <section className="shadow-2xl pb-1">
             <h2 className=" font flex justify-center text-7xl font-bold mt-20 mb-10 text-shadow-lg">
               Featured Stickers: New Drops!
             </h2>
-            <div className=" bg-slate-200 rounded-2xl border-stone-300 shadow-2xl p-6 mb-6 max-w-10xl mx-auto px-10 w-300 mt-2">
+            <div className=" bg-slate-200 rounded-2xl border-stone-300 shadow-2xl p-6 mb-6 max-w-10xl mx-auto px-10 w-300 mt-2 mb-2">
               <article>
                 <strong>New Stickers Drop</strong>{" "}
                 <em>- Exclusive Designs Now Available!</em>
@@ -89,13 +89,19 @@ export default function HomePage() {
             </div>
           </section>
 
-          <section className="flex justify-center">
+          <section className="flex justify-center shadow-xl">
             <h3></h3>
             <ul className="flex  ">
               {newAdditionStickers.map((sticker) => (
                 <Stickers key={sticker.id} sticker={sticker} />
               ))}
             </ul>
+          </section>
+
+          <section className=" flex justify-center font-bold text-3xl mb-20 mt-10 ">
+            <button className="border-3 text-white rounded-xl p-3  hover:text-pink-500 shadow-lg hover:animate-bounce">
+              Shop all
+            </button>
           </section>
         </div>
       </div>
