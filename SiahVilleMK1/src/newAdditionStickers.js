@@ -1,6 +1,6 @@
 export const newAdditionStickers = [
   {
-    id: 1,
+    id: 7,
     title: "Voyager.",
     description:
       "Introducing Voyager – where the unknown meets the unimaginable. This cosmic explorer is ready to venture into the great beyond… or your sticker collection.",
@@ -12,7 +12,7 @@ export const newAdditionStickers = [
   },
 
   {
-    id: 2,
+    id: 11,
     title: "Vibes.",
     description:
       " Enjoy the vibe with this vibrant set of bold, elegant, tranquil stickers that will set the tone for all your personal items!",
@@ -24,7 +24,7 @@ export const newAdditionStickers = [
   },
 
   {
-    id: 3,
+    id: 12,
     title: "Certififed Bag Chaser.",
     description:
       " A set of vibrant, graffiti-style stickers for the true go-getters who never stop chasing success. Available in multiple colorways, featuring bold lettering and a money bag icon.",
@@ -36,7 +36,7 @@ export const newAdditionStickers = [
   },
 
   {
-    id: 4,
+    id: 13,
     title: "TruckedUp!",
     description:
       "This unique design features a hooded figure chilling atop a massive skateboard wheel, giving off raw street energy with a hint of mystery. With grunge-inspired textures, bold details, and a sick color palette, this sticker is perfect for skaters, artists, & rebels alike.",

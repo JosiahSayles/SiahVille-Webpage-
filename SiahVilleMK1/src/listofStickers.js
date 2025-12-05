@@ -46,10 +46,11 @@ export const listOfStickers = [
     id: 5,
     title: "Unidentified: Mystic Hustler",
     description:
-      " This unique design features a green, alien-like figure with a third eye, flexing gold-plated fangs while throwing up a bold hand gesture. Adorned with gold jewelry, glowing nails, and floating golden bars above its head, this sticker is all about power, wealth, and an untouchable vibe.",
+      " This unique design features a green, alien-like figure with a third eye, flexing gold-plated fangs while throwing up a bold hand gesture. Adorned with gold jewelry, glowing nails, and floating golden bars above its head, this sticker is all about power, wealth, and an untouchable vibe. Printed on High quality matte Sticker paper with Glossy finish.",
     cost: "3.00",
     collection: "Chaotic Cranium",
     size: "3.25 x 2.5 in",
+    cover: "/marketing/unidentified1.jpg",
   },
 
   {
@@ -67,7 +68,7 @@ export const listOfStickers = [
     id: 7,
     title: "Voyager.",
     description:
-      "Introducing Voyager – where the unknown meets the unimaginable. This cosmic explorer is ready to venture into the great beyond… or your sticker collection.",
+      "Introducing Voyager – where the unknown meets the unimaginable. Features a worn down explorer hypnotized by his cosmic surroundings! This cosmic explorer is ready to venture into the great beyond… or your sticker collection. Printed on High quality matte Sticker paper with Glossy finish.",
     cost: "3.00",
     collection: "Chaotic Cranium",
     size: "3.25 x 2.5 in",
@@ -103,5 +104,59 @@ export const listOfStickers = [
     cost: "3.50",
     collection: "Cosmic Collection",
     size: "4 x 5 in",
+  },
+
+  {
+    id: 11,
+    title: "Vibes.",
+    description:
+      "Bring bold energy and artistic flair to any surface with our Vibes Drip Stickers. Each design features a sleek, minimalistic line-art hand holding a wine glass, splashed with vibrant dripping colors and paired with playful Japanese text for a uniquely modern aesthetic. The vertical “VIBES” lettering adds a clean street-art touch, while the glossy finish makes every color pop. Available in multiple striking colorways,these stickers are perfect for customizing laptops, water bottles, or anything that needs an instant vibe upgrade.",
+    cost: "3.00",
+    collection: "New  Additions",
+    size: "3.25 x 2.5 in",
+    cover: "/marketing/Vibes1.JPG",
+    hoverImage: "/marketing/VibesMk1.jpg",
+  },
+
+  {
+    id: 12,
+    title: "Certififed Bag Chaser.",
+    description:
+      "A set of vibrant, graffiti-style stickers for the true go-getters who never stop chasing success. Available in multiple colorways, featuring bold lettering and a money bag icon. Unique, eye-catching design with a graffiti-inspired aesthetic High-quality, durable material with a glossy finish. Includes a money bag icon to symbolize success and ambitionPerfect for laptops, water bottles, notebooks, and morehow the world you’re a Certified Bag Chaser! Grab yours today and rep the hustle.",
+    cost: "3.00",
+    collection: "New Additions",
+    size: "3.25 x 2.5 in",
+    cover: "/marketing/CBC1.jpg",
+    hoverImage: "/marketing/CBCMk1.jpeg",
+  },
+
+  {
+    id: 13,
+    title: "TruckedUp!",
+    description:
+      "This unique design features a hooded figure chilling atop a massive skateboard wheel, giving off raw street energy with a hint of mystery. With grunge-inspired textures, bold details, and a sick color palette, this sticker is perfect for skaters, artists, & rebels alike.",
+    cost: "3.00",
+    collection: "New Additions",
+    size: "3.8 x 2.45 in",
+    cover: "/marketing/TruckedUp1.jpeg",
+    hoverImage: "/marketing/TruckedUp2.jpeg",
+  },
+  {
+    id: 14,
+    title: "Celestial Scythe",
+    description:
+      "Embrace the darkness of the stars with the Celestial Scythe! With its intricate details and cosmic aura, this sticker represents the perfect blend of elegance and mystery. The scythe, glowing with celestial energy, embodies the balance between light and shadow, making it the ideal addition for those who appreciate otherworldly art.",
+    size: "3.8 x 2.45 in",
+    cover: "/marketing/CelsSytheMk1.JPG",
+    hoverImage: "/marketing/CelSytheMk2.JPG",
+  },
+  {
+    id: 15,
+    title: "Nova Axe",
+    description:
+      "Get ready to wield the cosmic force with the Nova Axe! This stunning design captures the raw energy of the universe, featuring a sleek and sharp axe engulfed in stellar brilliance. Whether you're a fan of fierce weapons or simply love bold designs, this sticker will bring the perfect touch of intergalactic power to your collection.",
+    size: "3.8 x 2.45 in",
+    cover: "/marketing/NA1.JPG",
+    hoverImage: "/marketing/NA2.JPG",
   },
 ];
