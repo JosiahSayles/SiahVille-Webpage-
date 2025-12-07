@@ -7,7 +7,8 @@ export const listOfStickers = [
     cost: "3.00",
     collection: "Chaotic Cranium",
     size: "3.25 x 2.5 in",
-    cover: "/img/B_mb_Head..jpg",
+    cover: "marketing/B_mbHeadMk1.jpg",
+    hoverImage: "marketing/B_mbHeadMk2.jpg",
   },
 
   {
@@ -18,7 +19,8 @@ export const listOfStickers = [
     cost: "3.00",
     collection: "Chaotic Cranium",
     size: "3.25 x 2.5 in",
-    cover: "/img/DirectDeposit..jpg",
+    cover: "marketing/DirectDeposit1.jpg",
+    hoverImage: "/marketing/DirectDepositMk2.jpg",
   },
 
   {
@@ -29,7 +31,8 @@ export const listOfStickers = [
     cost: "3.00",
     collection: "Chaotic Cranium",
     size: "3.25 x 2.5 in",
-    cover: "/img/Kunai..jpg",
+    cover: "/marketing/KunaiMk1.jpg",
+    hoverImage: "/marketing/KunaiMk2.jpg",
   },
 
   {
@@ -40,6 +43,8 @@ export const listOfStickers = [
     cost: "3.00",
     collection: "Chaotic Cranium",
     size: "3.25 x 2.5 in",
+    cover: "marketing/Gaa.Mk1.jpg",
+    hoverImage: "marketing/GasMk2.jpg",
   },
 
   {
@@ -51,6 +56,7 @@ export const listOfStickers = [
     collection: "Chaotic Cranium",
     size: "3.25 x 2.5 in",
     cover: "/marketing/unidentified1.jpg",
+    hoverImage: "/img/B_mb_Head..jpg",
   },
 
   {
@@ -61,7 +67,8 @@ export const listOfStickers = [
     cost: "3.00",
     collection: "Chaotic Cranium",
     size: "3.25 x 2.5 in",
-    cover: "/img/MRSVVS.jpeg",
+    cover: "marketing/MRSVVSMk3.jpg",
+    hoverImage: "marketing/MRSVVSMk1.jpg",
   },
 
   {
@@ -72,7 +79,8 @@ export const listOfStickers = [
     cost: "3.00",
     collection: "Chaotic Cranium",
     size: "3.25 x 2.5 in",
-    cover: "/img/Voyager.png",
+    cover: "/marketing/VoyagerMk3.jpg",
+    hoverImage: "/marketing/VoyagerMk2.jpg",
   },
 
   {
@@ -83,7 +91,8 @@ export const listOfStickers = [
     cost: "3.00",
     collection: "Cosmic Collection",
     size: "3.75 x 3.75 in",
-    cover: "/img/Ecstasy.jpg",
+    cover: "marketing/EcstacyMk1.jpg",
+    hoverImage: "marketing/EcstacyMk2.jpg",
   },
 
   {
@@ -94,6 +103,8 @@ export const listOfStickers = [
     cost: "3.00",
     collection: "Cosmic Collection",
     size: "3.5 x 4 in",
+    cover: "marketing/CosmicSmokeMk1.jpg",
+    hoverImage: "marketing/CosmicSmokeMk2.jpg",
   },
 
   {
@@ -104,6 +115,8 @@ export const listOfStickers = [
     cost: "3.50",
     collection: "Cosmic Collection",
     size: "4 x 5 in",
+    cover: "/img/B_mb_Head..jpg",
+    hoverImage: "/img/B_mb_Head..jpg",
   },
 
   {
