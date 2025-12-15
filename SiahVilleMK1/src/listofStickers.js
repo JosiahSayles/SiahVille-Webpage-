@@ -9,7 +9,7 @@ export const listOfStickers = [
     size: "3.25 x 2.5 in",
     cover: "/marketing/B_mbHeadMk1.jpg",
     hoverImage: "/marketing/B_mbHeadMk2.jpg",
-    digitalImage: "/img/B_mb_Head.Mk3.jpg",
+    digitalImage: "/img/B_mb_Head.Mk3.png",
   },
 
   {
@@ -87,6 +87,7 @@ export const listOfStickers = [
     size: "3.25 x 2.5 in",
     cover: "/marketing/VoyagerMk3.jpg",
     hoverImage: "/marketing/VoyagerMk2.jpg",
+    digitalImage: "/img/Voyager.Mk3.png",
   },
 
   {
@@ -175,8 +176,10 @@ export const listOfStickers = [
     title: "Nova Axe",
     description:
       "Get ready to wield the cosmic force with the Nova Axe! This stunning design captures the raw energy of the universe, featuring a sleek and sharp axe engulfed in stellar brilliance. Whether you're a fan of fierce weapons or simply love bold designs, this sticker will bring the perfect touch of intergalactic power to your collection.",
+    cost: "3.00",
     size: "3.8 x 2.45 in",
     cover: "/marketing/NA1.JPG",
     hoverImage: "/marketing/NA2.JPG",
+    digitalImage: "/img/NovaAxeMk3.PNG",
   },
 ];

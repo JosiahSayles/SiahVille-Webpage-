@@ -18,7 +18,7 @@ export default function StickersDetails() {
               <img
                 src={sticker.cover}
                 alt={sticker.title}
-                className="min-w-100 h-90 rounded-2xl shadow-lg "
+                className="max-w-100 h-90 rounded-2xl shadow-lg "
               />
               <img
                 src={sticker.hoverImage}
