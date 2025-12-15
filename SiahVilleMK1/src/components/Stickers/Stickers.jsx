@@ -1,3 +1,5 @@
+import { Link } from "react-router";
+
 export default function Stickers({ sticker }) {
   return (
     <div className="flex-col justify-items-center ">
@@ -23,9 +25,11 @@ export default function Stickers({ sticker }) {
           <p className="pl-2 bg-slate-400 rounded-xl ">{sticker.description}</p>
         </div>
       </li>
-      <button className="flex rounded-md shadow-xl border-2 w-50 h-10 justify-center items-center font-bold text-xl text-white mb-20 mt-5 hover:text-black   hover:animate-bounce ">
-        See more
-      </button>
+      <Link to={`/stickers/${sticker.id}`} className="flex">
+        <button className="flex rounded-md shadow-xl border-2 w-50 h-10 justify-center items-center font-bold text-xl text-white mb-20 mt-5 hover:text-black   hover:animate-bounce ">
+          See more
+        </button>
+      </Link>
     </div>
   );
 }

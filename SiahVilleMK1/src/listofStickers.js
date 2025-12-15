@@ -7,8 +7,9 @@ export const listOfStickers = [
     cost: "3.00",
     collection: "Chaotic Cranium",
     size: "3.25 x 2.5 in",
-    cover: "marketing/B_mbHeadMk1.jpg",
-    hoverImage: "marketing/B_mbHeadMk2.jpg",
+    cover: "/marketing/B_mbHeadMk1.jpg",
+    hoverImage: "/marketing/B_mbHeadMk2.jpg",
+    digitalImage: "/img/B_mb_Head.Mk3.jpg",
   },
 
   {
@@ -19,8 +20,9 @@ export const listOfStickers = [
     cost: "3.00",
     collection: "Chaotic Cranium",
     size: "3.25 x 2.5 in",
-    cover: "marketing/DirectDeposit1.jpg",
+    cover: "/marketing/DirectDeposit1.jpg",
     hoverImage: "/marketing/DirectDepositMk2.jpg",
+    digitalImage: "/img/DirectDeposit.Mk3.jpg",
   },
 
   {
@@ -33,6 +35,7 @@ export const listOfStickers = [
     size: "3.25 x 2.5 in",
     cover: "/marketing/KunaiMk1.jpg",
     hoverImage: "/marketing/KunaiMk2.jpg",
+    digitalImage: "/img/Kunai.Mk3.jpg",
   },
 
   {
@@ -43,8 +46,9 @@ export const listOfStickers = [
     cost: "3.00",
     collection: "Chaotic Cranium",
     size: "3.25 x 2.5 in",
-    cover: "marketing/Gaa.Mk1.jpg",
-    hoverImage: "marketing/GasMk2.jpg",
+    cover: "/marketing/Gaa.Mk1.jpg",
+    hoverImage: "/marketing/GasMk2.jpg",
+    digitalImage: "/img/Gas.Mk3.jpg",
   },
 
   {
@@ -57,6 +61,7 @@ export const listOfStickers = [
     size: "3.25 x 2.5 in",
     cover: "/marketing/unidentified1.jpg",
     hoverImage: "/img/B_mb_Head..jpg",
+    digitalImage: "/img/AlienMk3.jpg",
   },
 
   {
@@ -67,8 +72,9 @@ export const listOfStickers = [
     cost: "3.00",
     collection: "Chaotic Cranium",
     size: "3.25 x 2.5 in",
-    cover: "marketing/MRSVVSMk3.jpg",
-    hoverImage: "marketing/MRSVVSMk1.jpg",
+    cover: "/marketing/MRSVVSMk3.jpg",
+    hoverImage: "/marketing/MRSVVSMk1.jpg",
+    digitalImage: "/img/Mrs._VVS1Mk3.png",
   },
 
   {
@@ -91,8 +97,8 @@ export const listOfStickers = [
     cost: "3.00",
     collection: "Cosmic Collection",
     size: "3.75 x 3.75 in",
-    cover: "marketing/EcstacyMk1.jpg",
-    hoverImage: "marketing/EcstacyMk2.jpg",
+    cover: "/marketing/EcstacyMk1.jpg",
+    hoverImage: "/marketing/EcstacyMk2.jpg",
   },
 
   {
@@ -103,8 +109,8 @@ export const listOfStickers = [
     cost: "3.00",
     collection: "Cosmic Collection",
     size: "3.5 x 4 in",
-    cover: "marketing/CosmicSmokeMk1.jpg",
-    hoverImage: "marketing/CosmicSmokeMk2.jpg",
+    cover: "/marketing/CosmicSmokeMk1.jpg",
+    hoverImage: "/marketing/CosmicSmokeMk2.jpg",
   },
 
   {
@@ -115,7 +121,7 @@ export const listOfStickers = [
     cost: "3.50",
     collection: "Cosmic Collection",
     size: "4 x 5 in",
-    cover: "/img/B_mb_Head..jpg",
+    cover: "/marketing/ThroughtheVoidMk1.jpg",
     hoverImage: "/img/B_mb_Head..jpg",
   },
 
@@ -153,6 +159,7 @@ export const listOfStickers = [
     size: "3.8 x 2.45 in",
     cover: "/marketing/TruckedUp1.jpeg",
     hoverImage: "/marketing/TruckedUp2.jpeg",
+    digitalImage: "/img/TruckedUpMk3.png",
   },
   {
     id: 14,
