@@ -5,6 +5,7 @@ import StickersDetails from "./components/Stickers/StickersDetails.jsx";
 import StickersPage from "./components/Stickers/StickersPage.jsx";
 import Layout from "./Layout.jsx";
 import Error404 from "./Error404";
+import Cart from "./components/Cart/Cart.jsx";
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
           <Route index element={<HomePage />} />
           <Route path="stickers" element={<StickersPage />} />
           <Route path="stickers/:id" element={<StickersDetails />} />
+          <Route path="Cart" element={<Cart />} />
           <Route path="*" element={<Error404 />} />
         </Route>
       </Routes>

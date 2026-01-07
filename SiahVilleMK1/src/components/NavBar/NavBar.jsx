@@ -12,13 +12,16 @@ export default function NavBar() {
           <img className="pl-2 " src="/Icons/home.png" alt="Home Icon" />
           Home
         </NavLink>
-        <NavLink className="flex-col items text-white pr-5 hover:text-red-200">
+        <NavLink
+          to="/Cart"
+          className="flex-col items text-white pr-5 hover:text-red-200"
+        >
           <img
             className="pl-8"
-            src="/Icons/shoppingbag.png"
-            alt="Shopping bag Icon"
+            src="/Icons/ShoppingCart.png"
+            alt="Shopping cart Icon"
           />
-          Shopping Bag
+          Shopping Cart
         </NavLink>
         <NavLink className="flex-col items text-white  pr-5 hover:text-red-200">
           <img className="pl-1" src="/Icons/login.png" alt="Login Icon" />

@@ -1,4 +1,3 @@
-import React from "react";
 import { listOfStickers } from "../../listofStickers";
 import Stickers from "./Stickers";
 

@@ -1,8 +1,10 @@
 import { listOfStickers } from "../../listofStickers";
 import { useParams } from "react-router";
+import { useCart } from "../../CartContext";
 
 export default function StickersDetails() {
   const { id } = useParams();
+  const { addToCart } = useCart();
   const sticker = listOfStickers.find((s) => s.id.toString() === id);
 
   if (!sticker) {
@@ -45,7 +47,10 @@ export default function StickersDetails() {
             <p className="mt-5 text-3xl mb-10 shadow-xl text-white">
               Price: ${sticker.cost}
             </p>
-            <button className="flex rounded-md shadow-xl border-2 w-50 h-10 justify-center items-center font-bold text-xl text-black mb-20 mt-5 hover:text-black hover:animate-bounce ">
+            <button
+              onClick={() => addToCart(sticker)}
+              className="flex rounded-md shadow-xl border-2 w-50 h-10 justify-center items-center font-bold text-xl text-black mb-20 mt-5 hover:text-black hover:text-white"
+            >
               Add to Cart
             </button>
           </div>
