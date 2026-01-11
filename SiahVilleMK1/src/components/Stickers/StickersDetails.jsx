@@ -1,6 +1,7 @@
 import { listOfStickers } from "../../listofStickers";
 import { useParams } from "react-router";
 import { useCart } from "../../CartContext";
+import { Link } from "react-router";
 
 export default function StickersDetails() {
   const { id } = useParams();
@@ -45,14 +46,35 @@ export default function StickersDetails() {
             </p>
             <p className="mt-5  text-md font-bold">Size: {sticker.size}</p>
             <p className="mt-5 text-3xl mb-10 shadow-xl text-white">
-              Price: ${sticker.cost}
+              Price: ${sticker.cost} each
             </p>
-            <button
-              onClick={() => addToCart(sticker)}
-              className="flex rounded-md shadow-xl border-2 w-50 h-10 justify-center items-center font-bold text-xl text-black mb-20 mt-5 hover:text-black hover:text-white"
-            >
-              Add to Cart
-            </button>
+
+            <p>Collection: {sticker.collection} </p>
+            <p>Status: In stock</p>
+
+            <div>
+              <button
+                onClick={() => addToCart(sticker)}
+                className="flex rounded-md shadow-xl border-2 w-50 h-10 justify-center items-center font-bold text-xl text-black mb-2 mt-5 hover:text-black hover:text-white cursor-pointer "
+              >
+                Add to Cart
+              </button>
+              <button
+                onClick={() => addToCart(sticker)}
+                className="flex rounded-md shadow-xl border-2 w-50 h-10 justify-center items-center font-bold text-xl text-black mb-5 mt-2 hover:text-black hover:text-white cursor-pointer "
+              >
+                Buy Now
+              </button>
+            </div>
+            <Link to="/stickers">
+              <button className="hover:bg-black rounded-xl cursor-pointer mx-5 ">
+                <img
+                  src="/Icons/backArrow.png"
+                  alt="back button arrow"
+                  width={50}
+                />
+              </button>
+            </Link>
           </div>
         </div>
       </div>
