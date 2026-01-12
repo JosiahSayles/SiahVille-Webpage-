@@ -15,7 +15,7 @@ function CartSummary({ item }) {
         <div className="ml-5 flex-col text-sm pr-10">
           <h2 className="">{item.title}</h2>
           <p className="mt-1"> ${item.cost}</p>
-          <p> Qunantity: {item.quantity}</p>
+          <p> Quantity: {item.quantity}</p>
         </div>
       </li>
     </>

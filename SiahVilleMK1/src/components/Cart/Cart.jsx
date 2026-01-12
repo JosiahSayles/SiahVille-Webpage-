@@ -6,12 +6,19 @@ import "./Cart.css";
 
 export default function Cart() {
   const { cart } = useCart();
+  const cartEmpty = cart.length === 0;
 
-  if (cart === null) {
+  if (cartEmpty) {
     return (
-      <section>
-        <h2>Your cart is currently empty...</h2>
-        <h3>Checkout out our catalog page to find all of out stickers!</h3>
+      <section className="flex-col mt-100 justify-items-center text-2xl  ">
+        <h2 className="mb-5">Your cart is currently empty...</h2>
+        <h3>
+          Checkout out our{" "}
+          <a className="text-blue-500 underline" href="/stickers">
+            Catalog page
+          </a>{" "}
+          to find all of out stickers!
+        </h3>
       </section>
     );
   }
